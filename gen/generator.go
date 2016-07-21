@@ -9,7 +9,7 @@ import (
 	"path"
 	"text/template"
 
-	"github.com/nsalb/go-vsc-theme/manifest"
+	"github.com/natalbu/go-vsc-theme/manifest"
 )
 
 // GenPackage gera um pacote de tema para o Visual Studio Code.

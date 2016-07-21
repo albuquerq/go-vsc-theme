@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nsalb/go-vsc-theme/fmtname"
+	"github.com/natalbu/go-vsc-theme/fmtname"
 )
 
 // category tipo categria
