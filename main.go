@@ -8,6 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"bufio"
+
 	"github.com/albuquerq/go-vsc-theme/fmtname"
 	"github.com/albuquerq/go-vsc-theme/gen"
 )
@@ -61,13 +63,11 @@ func main() {
 			if autoNaming {
 				fmt.Printf("Building the package for %s. Display name \"%s\"   ", info.Name(), displayName)
 			} else {
-				var novoNome = ""
 
 				fmt.Printf("Building the package for %s. Enter the displayName in quotes, or use the default (\"%s\")   ", info.Name(), displayName)
-				fmt.Fscanf(os.Stdin, "%q\n", &novoNome)
-
-				if novoNome != "" {
-					displayName = novoNome
+				novoNome, _ := bufio.NewReader(os.Stdin).ReadString('\n')
+				if novoNome != "\n" {
+					displayName = novoNome[:len(novoNome)-1]
 				}
 			}
 

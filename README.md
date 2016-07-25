@@ -75,7 +75,6 @@ $./go-vsc-theme -in=/caminho/para/temas_claros -auto=false -out=caminho/para/pac
 > Observação1: go-vsc-theme roda recursivamente no caminho passado no parâmetro -in, procurando nos subdiretórios por arquivos de tema.
 > Por esse motivo **não** passe como -out um subdiretório de -in!
 
-> Observação2: Quando for escrever entra manualmente como uma nome para o tema, escreva-o entre aspas, ex.: "Meu Tema Claro"
 
 ## Personalizar o README.md do Pacote de Tema
 
