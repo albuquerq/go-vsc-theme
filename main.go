@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/natalbu/go-vsc-theme/fmtname"
-	"github.com/natalbu/go-vsc-theme/gen"
+	"github.com/albuquerq/go-vsc-theme/fmtname"
+	"github.com/albuquerq/go-vsc-theme/gen"
 )
 
 var (

@@ -12,7 +12,7 @@ respectivos pacotes de forma automatizada.
 Clone o repositório e compile. Para compilar é necessário instalar a linguagem de programação Go, [download Go](https://golang.org/dl/).
 
 ```bash
-git clone https://github.com/natalbu/go-vsc-theme.git
+git clone https://github.com/albuquerq/go-vsc-theme.git
 cd go-vsc-theme
 go build .
 # Depende de templates/README.tmpl
